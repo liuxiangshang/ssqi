@@ -8,8 +8,8 @@ fieldset,img,input{border:0;}
 .goodview_nav a{color: #666;font-size: 14px;}
 
 .goodview_item{margin-left: 135px;overflow: hidden;}
-.goodlist_img{float: left;width: 315px;}
-.goodlist_detail{float: left;width: 515px;}
+.goodlist_img{float: left;/*width: 315px;*/}
+.goodlist_detail{float: left;width: 515px;margin-left: 75px;}
 .goodlist_detail .goods_title{border-bottom: #e6e6e6 dashed 1px;}
 .goodlist_detail .goods_title strong{font-size: 14px;display: block;line-height: 20px;}
 .goodlist_detail .goods_title p{font-size: 14px;line-height: 20px;color: #888;}

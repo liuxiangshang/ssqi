@@ -1,4 +1,4 @@
-function cookie_register () {
+function cookie_register (urls) {
 	var $register_txt = $(".pop_register_item .txtgb");
 	var $register_pwd = $(".pop_register_item .pwdbg");
 	var $register_repwd = $(".pop_register_item .reg_pwdbg");
@@ -85,13 +85,13 @@ function cookie_register () {
 				var username = setCookie("username",$register_name.val(),d);
 				var sex = setCookie("sex",$register_sex.val(),d);
 				var phone = setCookie("phone",$register_phone.val(),d);
-				$register_subimt.attr({href:"html/details.html"});
+				$register_subimt.attr({href:urls});
 			}
 		});
 	});
 }
 
-function cookie_wholesale () {
+function cookie_wholesale (urls) {
 	var $wholesale_txt = $(".pop_wholesale_item .txtgb");
 	var $wholesale_pwd = $(".pop_wholesale_item .pwdbg");
 	var $wholesale_repwd = $(".pop_wholesale_item .reg_pwdbg");
@@ -198,7 +198,7 @@ function cookie_wholesale () {
 				var phones = setCookie("phones",$wholesale_phone.val(),d);
 				var address = setCookie("address",$wholesale_address.val(),d);
 				var detailaddr = setCookie("detailaddr",$wholesale_detailaddrbg.val(),d);
-				$wholesale_subimt.attr({href:"html/details.html"});
+				$wholesale_subimt.attr({href:urls});
 			}
 		});
 	});

@@ -2,7 +2,7 @@
 //设置cookie
 function setCookie (name,value,expres,path,domain,secure) {
 	//name=value
-	var cookieText = encodeURIComponent(name) + "=" + encodeURIComponent(value);
+	var cookieText = name + "=" + value;
 	//失效时间expres=date
 	if (expres instanceof Date) {
 		cookieText += ";expres=" + expres; 
@@ -21,7 +21,7 @@ function setCookie (name,value,expres,path,domain,secure) {
 }
 //获取cookie
 function getCookie (name) {
-	var cookie = decodeURIComponent(document.cookie);
+	var cookie = document.cookie;
 	var arr = cookie.split("; ");
 	for (var i = 0;i < arr.length; i++) {
 		var arr2 = arr[i].split("=");
@@ -36,6 +36,6 @@ function getCookie (name) {
 //删除cookie
 function removeCookie (name) {
 	var d = new Date();
-    document.cookie = encodeURIComponent(name) + "=;expres=" + d;
+    document.cookie = name + "=;expres=" + d;
 	return document.cookie; 
 }

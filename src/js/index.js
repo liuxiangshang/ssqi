@@ -15,7 +15,7 @@
 				});
 				$ul.prependTo($lcarousel);
 				$lcarousel.prependTo($(".wraper"));
-				$(".lcarousel").lcarousel({
+				$lcarousel.lcarousel({
 					width:1100,
 					height:400,
 					type:"x"

@@ -15,11 +15,12 @@
 		<script src="js/cookie_login.js" type="text/javascript" charset="utf-8"></script>
 		<script type="text/javascript">
 			jQuery(function ($) {
+				var urls = "index.html";
 				lcommon();
-				cookie_register();
-				cookie_wholesale();
-				cookie_login();
-				cookie_wholesale_login();
+				cookie_register(urls);
+				cookie_wholesale(urls);
+				cookie_login(urls);
+				cookie_wholesale_login(urls);
 			});
 		</script>
 	</head>
@@ -33,7 +34,13 @@
 				<li class="cosmetic"><a href="index.html">美妆区</a></li>
 			</ul>
 			<ul id="user_menu" class="user_menu">
-				<li><a href="#" class="login">登录</a>/<a href="#" class="register">注册</a>
+				<li>
+					<span class="logins_a">
+						<a href="#" class="login">登录</a>/<a href="#" class="register">注册</a>
+					</span>
+					<span class="logins_user">
+						<a href="#" class="username"></a>/<a href="#" class="tuichu">退出</a>
+					 </span>
 				</li>
 				<li><a href="#">购物车(<span>0</span>)</a></a></li>
 				<li><a href="#">暂存架(<span>0</span>)</a></li>
@@ -51,7 +58,7 @@
 				<li><a href="#">最佳口碑</a></li>
 			</ul>
 			<ul class="nav">
-				<li><a href="#">上衣</a></li>
+				<li><a href="html/list.html">上衣</a></li>
 				<li><a href="#">衬衫&罩衫</a></li>
 				<li><a href="#">外套</a></li>
 				<li><a href="#">半身裙</a></li>
@@ -190,7 +197,13 @@
 					<li><a class="search_btn" href="#"></a></li>
 				</ul>
 				<ul class="users_menu">
-					<li class="logins"><a href="#" class="login">登录</a>/<a href="#" class="register">注册</a>
+					<li class="logins">
+						<span class="logins_a">
+							<a href="#" class="login">登录</a>/<a href="#" class="register">注册</a>
+						</span>
+						<span class="logins_user">
+							<a href="#" class="username"></a>
+					 	</span>
 					</li>
 					<li class="cart"><a href="#">购物车(<span>0</span>)</a></li>
 					<li class="zzim"><a href="#">暂存架(<span>0</span>)</a></li>
@@ -316,7 +329,7 @@
 			<ul>
 				<li><a href="#">最新商品</a></li>
 				<li><a href="#">一周爆款</a></li>
-				<li><a href="#">上衣</a></li>
+				<li><a href="html/list.html">上衣</a></li>
 				<li><a href="#">衬衫&罩衫</a></li>
 				<li><a href="#">外套</a></li>
 				<li><a href="#">半身裙</a></li>

@@ -5,18 +5,22 @@
 		<title>详情页面</title>
 		<link rel="stylesheet" type="text/css" href="../css/common.css"/>
 		<link rel="stylesheet" type="text/css" href="../css/details.css"/>
+		<link rel="stylesheet" type="text/css" href="../assets/lzoom/jquery.lzoom.css"/>
 		<script src="../assets/jquery-1.12.0.js" type="text/javascript" charset="utf-8"></script>
 		<script src="../assets/jQuery.lcommon.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../assets/lzoom/jquery.lzoom.js" type="text/javascript" charset="utf-8"></script>
 		<script src="../assets/base.js" type="text/javascript" charset="utf-8"></script>
 		<script src="../js/cookie_register.js" type="text/javascript" charset="utf-8"></script>
 		<script src="../js/cookie_login.js" type="text/javascript" charset="utf-8"></script>
 		<script type="text/javascript">
 			jQuery(function ($) {
+				var urls = "detail.html";
 				lcommon();
-				cookie_register();
-				cookie_wholesale();
-				cookie_login();
-				cookie_wholesale_login();
+				$(".goodlist_img").lzoom();
+				cookie_register(urls);
+				cookie_wholesale(urls);
+				cookie_login(urls);
+				cookie_wholesale_login(urls);
 			});
 		</script>
 	</head>
@@ -47,7 +51,7 @@
 				<li><a href="#">最佳口碑</a></li>
 			</ul>
 			<ul class="nav">
-				<li><a href="#">上衣</a></li>
+				<li><a href="list.html">上衣</a></li>
 				<li><a href="#">衬衫&罩衫</a></li>
 				<li><a href="#">外套</a></li>
 				<li><a href="#">半身裙</a></li>
@@ -627,7 +631,7 @@
 			<ul>
 				<li><a href="#">最新商品</a></li>
 				<li><a href="#">一周爆款</a></li>
-				<li><a href="#">上衣</a></li>
+				<li><a href="list.html">上衣</a></li>
 				<li><a href="#">衬衫&罩衫</a></li>
 				<li><a href="#">外套</a></li>
 				<li><a href="#">半身裙</a></li>

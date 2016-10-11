@@ -115,7 +115,7 @@
 				//创建大盒子
 				$big = $('<div/>').addClass('lzoom-big').css({width:opt.width,height:opt.height});
 				//创建大图
-				$bigImg = $('<img/>').attr({src:bigUrl});
+				$bigImg = $('<img/>').attr({src:bigUrl}).css({width:$smallImg.outerWidth()*10,height:$smallImg.outerHeight()*10});
 				
 				//把大图写入页面
 				$big.append($bigImg).appendTo('body');
