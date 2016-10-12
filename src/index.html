@@ -3,31 +3,44 @@
 	<head>
 		<meta charset="utf-8" />
 		<title>首页</title>
+		<!--公共样式-->
 		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<!--首页样式-->
 		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<!--轮播图样式-->
 		<link rel="stylesheet" type="text/css" href="assets/lcarousel/jquery.lcarousel.css"/>
 		<script src="assets/jquery-1.12.0.js" type="text/javascript" charset="utf-8"></script>
+		<!--公共的js-->
 		<script src="assets/jQuery.lcommon.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
 		<script src="assets/lcarousel/jquery.lcarousel.js" type="text/javascript" charset="utf-8"></script>
+		<!--cookie-->
 		<script src="assets/base.js" type="text/javascript" charset="utf-8"></script>
+		<!--注册cookie-->
 		<script src="js/cookie_register.js" type="text/javascript" charset="utf-8"></script>
+		<!--登录cookie-->
 		<script src="js/cookie_login.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/detail.js" type="text/javascript" charset="utf-8"></script>
 		<script type="text/javascript">
 			jQuery(function ($) {
 				var urls = "index.html";
 				lcommon();
+				indexload();
+				//购物车里面商品的件数
 				listcart();
+				//普通会员注册
 				cookie_register(urls);
+				//批发会员注册
 				cookie_wholesale(urls);
+				//普通会员登录
 				cookie_login(urls);
+				//批发会员登录
 				cookie_wholesale_login(urls);
 			});
 		</script>
 	</head>
 	<body>
-		<!--------------------------Top------------------------------------>
+		<!--------------------------header------------------------------------>
 		<div class="header">
 			<a class="logo" href="index.html"><img src="img/logo.png"/></a>
 			<ul id="top_nav" class="top_nav">
@@ -88,11 +101,12 @@
 					<li><img src="img/lbt5.jpg"/></li>
 				</ul>
 			</div>-->
+			
 			<div class="main_img">
 				<table border="0" cellspacing="0" cellpadding="0">
 					<tr>
 						<td>
-							<a>
+							<a href="">
 								<div class="tab_wrap">
 									<div class="image"><img src="img/tab1.jpg"/></div>
 									<div class="etc_wrap">
@@ -104,7 +118,7 @@
 								</div>
 							</a>
 						</td>
-						<td><a>
+						<td><a href="">
 								<div class="tab_wrap">
 									<div class="image"><img src="img/tab2.jpg"/></div>
 									<div class="etc_wrap">
@@ -116,7 +130,7 @@
 								</div>
 							</a>
 						</td>
-						<td><a>
+						<td><a href="">
 								<div class="tab_wrap">
 									<div class="image"><img src="img/tab3.jpg"/></div>
 									<div class="etc_wrap">
@@ -128,14 +142,14 @@
 								</div>
 							</a>
 						</td>
-						<td rowspan="2"><a><img src="img/tab4.jpg"/></a></td>
+						<td rowspan="2"><a href=""><img src="img/tab4.jpg"/></a></td>
 					</tr>
 					<tr>
-						<td colspan="2"><a><img src="img/tab5.jpg"/></a></td>
+						<td colspan="2"><a href=""><img src="img/tab5.jpg"/></a></td>
 						<td><a><img src="img/tab6.jpg"/></a></td>
 					</tr>
 					<tr>
-						<td><a>
+						<td><a href="">
 								<div class="tab_wrap">
 									<div class="image"><img src="img/tab7.jpg"/></div>
 									<div class="etc_wrap">
@@ -147,7 +161,7 @@
 								</div>
 							</a>
 						</td>
-						<td><a href="#">
+						<td><a href="">
 								<div class="tab_wrap">
 									<div class="image"><img src="img/tab8.jpg"/></div>
 									<div class="etc_wrap">
@@ -159,7 +173,7 @@
 								</div>
 							</a>
 						</td>
-						<td><a>
+						<td><a href="">
 								<div class="tab_wrap">
 									<div class="image"><img src="img/tab9.jpg"/></div>
 									<div class="etc_wrap">
@@ -171,17 +185,17 @@
 								</div>
 							</a>
 						</td>
-						<td><a><img src="img/tab10.jpg"/></a></td>
+						<td><a href=""><img src="img/tab10.jpg"/></a></td>
 					</tr>
 				</table>
 			</div>
 			<div class="keyword">
 				<ul>
-					<li><a><img src="img/keyword1.jpg"/></a></li>
-					<li><a><img src="img/keyword2.jpg"/></a></li>
-					<li><a><img src="img/keyword3.jpg"/></a></li>
-					<li><a><img src="img/keyword4.jpg"/></a></li>
-					<li><a><img src="img/keyword5.jpg"/></a></li>
+					<li><a href=""><img src="img/keyword1.jpg"/></a></li>
+					<li><a href=""><img src="img/keyword2.jpg"/></a></li>
+					<li><a href=""><img src="img/keyword3.jpg"/></a></li>
+					<li><a href=""><img src="img/keyword4.jpg"/></a></li>
+					<li><a href=""><img src="img/keyword5.jpg"/></a></li>
 				</ul>
 			</div>
 			<h2 class="list_title">New Arrivals</h2>
