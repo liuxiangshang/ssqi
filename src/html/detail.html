@@ -8,6 +8,7 @@
 		<link rel="stylesheet" type="text/css" href="../assets/lzoom/jquery.lzoom.css"/>
 		<script src="../assets/jquery-1.12.0.js" type="text/javascript" charset="utf-8"></script>
 		<script src="../assets/jQuery.lcommon.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/detail.js" type="text/javascript" charset="utf-8"></script>
 		<script src="../assets/lzoom/jquery.lzoom.js" type="text/javascript" charset="utf-8"></script>
 		<script src="../assets/base.js" type="text/javascript" charset="utf-8"></script>
 		<script src="../js/cookie_register.js" type="text/javascript" charset="utf-8"></script>
@@ -15,12 +16,14 @@
 		<script type="text/javascript">
 			jQuery(function ($) {
 				var urls = "detail.html";
-				lcommon();
-				$(".goodlist_img").lzoom();
+				lcommon();		
+				details();
+				listcart();
 				cookie_register(urls);
 				cookie_wholesale(urls);
 				cookie_login(urls);
 				cookie_wholesale_login(urls);
+				
 			});
 		</script>
 	</head>
@@ -34,100 +37,99 @@
 				<li class="cosmetic"><a href="index.html">美妆区</a></li>
 			</ul>
 			<ul id="user_menu" class="user_menu">
-				<li><a href="#" class="login">登录</a>/<a href="#" class="register">注册</a></li>
-				<li><a href="#">购物车(<span>0</span>)</a></a></li>
-				<li><a href="#">暂存架(<span>0</span>)</a></li>
+				<li><aclass="login">登录</a>/<a class="register">注册</a></li>
+				<li class="cart"><a href="Cart.html">购物车(<span>0</span>)</a></li>
+				<li class="zzim"><a>暂存架(<span>0</span>)</a></li>
 			</ul>
 		</div>
 		<!--------------------------left_Nav------------------------------------>
 		<div id="left_nav" class="left_nav">
 			<ul class="event">
-				<li><a href="#">品论赢积分</a></li>
+				<li><a href="list.html">品论赢积分</a></li>
 			</ul>
 			<ul class="nav">
-				<li class="new"><a href="#">最新商品</a></li>
-				<li><a href="#">一周爆款</a></li>
-				<li><a href="#">热卖商品</a></li>
-				<li><a href="#">最佳口碑</a></li>
+				<li class="new"><a href="list.html">最新商品</a></li>
+				<li><a href="list.html">一周爆款</a></li>
+				<li><a href="list.html">热卖商品</a></li>
+				<li><a href="list.html">最佳口碑</a></li>
 			</ul>
 			<ul class="nav">
 				<li><a href="list.html">上衣</a></li>
-				<li><a href="#">衬衫&罩衫</a></li>
-				<li><a href="#">外套</a></li>
-				<li><a href="#">半身裙</a></li>
-				<li><a href="#">连衣裙</a></li>
-				<li><a href="#">裤装</a></li>
-				<li><a href="#">鞋&包</a></li>
-				<li><a href="#">配饰</a></li>
-				<li><a href="#">内衣</a></li>
-				<li><a href="#">SUMMER</a></li>
-				<li><a href="#">美妆</a></li>
+				<li><a href="list.html">衬衫&罩衫</a></li>
+				<li><a href="list.html">外套</a></li>
+				<li><a href="list.html">半身裙</a></li>
+				<li><a href="list.html">连衣裙</a></li>
+				<li><a href="list.html">裤装</a></li>
+				<li><a href="list.html">鞋&包</a></li>
+				<li><a href="list.html">配饰</a></li>
+				<li><a href="list.html">内衣</a></li>
+				<li><a href="list.html">SUMMER</a></li>
+				<li><a href="list.html">美妆</a></li>
 			</ul>
 			<ul class="event2">
-				<li><a href="#">明星赞助</a></li>
-				<li><a href="#">专题&活动</a></li>
+				<li><a href="list.html">明星赞助</a></li>
+				<li><a href="list.html">专题&活动</a></li>
 			</ul>
 		</div>
 		<!--------------------------wraper------------------------------------>
 		<div id="wraper" class="wraper">
 			<div class="goodview_nav">
-				<a href="#">韩国女装</a> > <a href="#">上衣</a> > <a href="#">针织衫</a> > ★限量发售★ 百搭麻花辫针织T恤
+				<a href="#">韩国女装</a> > <a href="#">上衣</a> > <a href="#">针织衫</a> > <!--<span class="">★限量发售★ 百搭麻花辫针织T恤</span>-->
 			</div>
 			<div class="goodview_item">
 				<div class="goodlist_img">
-					<img src="../img/hot_33.jpg"/>
+					<!--<img src="../img/hot_33.jpg"/>-->
 				</div>
 				<div class="goodlist_detail">
 					<div class="goods_title">
-						<strong>Twisted Knit Tee</strong>
-						<p>★한정수량★ 매치하기 좋은 꽈배기 니트티 !</p>
-						<p>★限量发售★ 百搭麻花辫针织T恤</p>
-						<span>New!</span>
+						<!--<strong class="Gname">Twisted Knit Tee</strong>
+						<p class="Gtitle">★한정수량★ 매치하기 좋은 꽈배기 니트티 !</p>
+						<p class="Gtitle">★限量发售★ 百搭麻花辫针织T恤</p>
+						<span class="GIcon">New!</span>-->
 					</div>
 					<p class="interfree">韩国直邮 100元免国际配送费</p>
 					<div class="member_price">
-						钻石会员 ¥125 / 宝石会员 ¥128 / 翡翠会员 ¥131 / 水晶会员 ¥133<a href="#">查看会员规则</a>
+						钻石会员 ¥125 / 宝石会员 ¥128 / 翡翠会员 ¥131 / 水晶会员 ¥133<a>查看会员规则</a>
 					</div>
 					<div class="goods_form">
 						<form action="" method="post">
 							<div>
 								<span class="sell_title">售价：</span>
 								<div class="sell_content">
-									<span class="sell_price"> ¥ 136 </span>
-									<span class="emoney">（积分 ¥ 1）</span>
+									<strong></strong><!--<span class="sell_price"> ¥ 136 </span>-->
+									<span class="emoney">（积分 ¥ <strong></strong>）</span>
 								</div>
 							</div>
 							<div>
 								<span class="sell_title">颜色：</span>
 								<div class="sell_content">
-									<select name="gcolor">
-										<option value="No" selected="selected">请选择颜色</option>
-										<option value="蓝色[블루]">蓝色</option>
-										<option value="灰色[그레이]">灰色</option>
-										<option value="红棕色[레드브라운]">红棕色</option>
+									<select name="gcolor" class="gcolor">
+										<option value="蓝色">蓝色</option>
+										<option value="灰色">灰色</option>
+										<option value="红棕色">红棕色</option>
 									</select>
 								</div>
 							</div>
 							<div>
 								<span class="sell_title">尺寸：</span>
 								<div class="sell_content">
-									<select name="gsize">
-										<option value="No" selected="selected">请选择尺寸</option>
+									<select name="gsize" class="gsize">
 										<option value="ONE SIZE">ONE</option>
+										<option value="TWO SIZE">TWO</option>
 									</select>
 								</div>
 							</div>
 							<div class="Gqty">
 								<span class="sell_title">数量：</span>
 								<div class="sell_content">
-									<input type="text" name="Gqty" id="" value="1" maxlength="3"/>
-									<a href="#" class="reduce">-</a>
-									<a href="#" class="plus">+</a>
+									<input type="text" name="Gqty" id="" value="1" maxlength="3" class="goodsnum"/>
+									<a class="reduce">-</a>
+									<a class="plus">+</a>
 								</div>
 							</div>
 							<div class="good_buy">
-								<a href="#" class="myzzim_btn">放入暂存架</a>
-								<a href="#" class="cart_btn">加入购物车</a>
+								<a class="myzzim_btn">放入暂存架</a>
+								<a class="cart_btn">加入购物车</a>
 							</div>
 						</form>
 					</div>
@@ -500,20 +502,20 @@
 		<!--------------------------right_Nav------------------------------------>
 		<div class="right_nav" id="right_nav">
 			<div id="right_wraper" class="right_wraper">
-				<a href="#" id="right_btn" class="right_btn">></a>
+				<a id="right_btn" class="right_btn">></a>
 				<ul class="quick_menu">
-					<li><a class="reg_btn" href="#"></a></li>
-					<li><a class="search_btn" href="#"></a></li>
+					<li><a class="reg_btn"></a></li>
+					<li><a class="search_btn"></a></li>
 				</ul>
 				<ul class="users_menu">
-					<li class="logins"><a href="#" class="login">登录</a>/<a href="#" class="register">注册</a></li>
-					<li class="cart"><a href="#">购物车(<span>0</span>)</a></li>
-					<li class="zzim"><a href="#">暂存架(<span>0</span>)</a></li>
+					<li class="logins"><a href="#" class="login">登录</a>/<a class="register">注册</a></li>
+					<li class="cart"><a href="Cart.html">购物车(<span>0</span>)</a></li>
+					<li class="zzim"><a>暂存架(<span>0</span>)</a></li>
 				</ul>
 				<ul class="help_menu">
-					<li><a class="history_btn" href="#">今日浏览</a></li>
+					<li><a class="history_btn">今日浏览</a></li>
 					<li class="weixin">
-						<a class="weixin_btn" href="#">关注微信</a>
+						<a class="weixin_btn">关注微信</a>
 						<div class="weixin_pop" id="weixin_pop">
 							<div class="weixin_code">
 								<img src="../css/img/weixin_code.jpg"/>
@@ -524,11 +526,11 @@
 							</div>
 						</div>
 					</li>
-					<li><a href="#right_nav">常见问题</a></li>
-					<li><a href="#">1:1留言答复</a></li>
+					<li><a>常见问题</a></li>
+					<li><a>1:1留言答复</a></li>
 				</ul>
 				<strong class="promise">100%正品保证<br/>100%韩国直邮<br/>100%售后服务</strong>
-				<a href="#" id="top_btn" class="top_btn"><span>Top</span></a>
+				<a id="top_btn" class="top_btn"><span>Top</span></a>
 			</div>
 		</div>
 		<!--------------------------guarantee------------------------------------>
@@ -562,50 +564,50 @@
 						<div class="help_top_detail">
 							<h3>新手上路</h3>
 							<ul>
-								<li><a href="#"> > 怎样下订单</a></li>
-								<li><a href="#"> > 会员等级制度</a></li>
-								<li><a href="#"> > 积分&优惠券</a></li>
+								<li><a> > 怎样下订单</a></li>
+								<li><a> > 会员等级制度</a></li>
+								<li><a> > 积分&优惠券</a></li>
 							</ul>
 						</div>
 						<div class="help_top_detail">
 							<h3>关于订购</h3>
 							<ul>
-								<li><a href="#"> > 支付方式</a></li>
-								<li><a href="#"> > 配送时间</a></li>
-								<li><a href="#"> > 配送费用</a></li>
+								<li><a> > 支付方式</a></li>
+								<li><a> > 配送时间</a></li>
+								<li><a> > 配送费用</a></li>
 							</ul>
 						</div>
 						<div class="help_top_detail">
 							<h3>帮助中心</h3>
 							<ul>
-								<li><a href="#"> > 找回密码</a></li>
-								<li><a href="#"> > 常见问题</a></li>
-								<li><a href="#"> > 公告栏</a></li>
+								<li><a> > 找回密码</a></li>
+								<li><a> > 常见问题</a></li>
+								<li><a> > 公告栏</a></li>
 							</ul>
 						</div>
 						<div class="help_top_detail">
 							<h3>售后服务</h3>
 							<ul>
-								<li><a href="#"> > 退货政策</a></li>
-								<li><a href="#"> > 退货申请</a></li>
-								<li><a href="#"> > 留言&回复</a></li>
+								<li><a> > 退货政策</a></li>
+								<li><a> > 退货申请</a></li>
+								<li><a> > 留言&回复</a></li>
 							</ul>
 						</div>
 						<div class="help_top_detail">
 							<h3>关于我们</h3>
 							<ul>
-								<li><a href="#"> > 平台介绍</a></li>
-								<li><a href="#"> > 联系我们</a></li>
-								<li><a href="#"> > 加入我们</a></li>
+								<li><a> > 平台介绍</a></li>
+								<li><a> > 联系我们</a></li>
+								<li><a> > 加入我们</a></li>
 							</ul>
 						</div>
 					</div>
 					<div class="help_bottom">
 						<div class="help_bottom_email">
-							<a href="#">我要女装</a>
-							<a href="#">我要男装</a>
+							<a>我要女装</a>
+							<a>我要男装</a>
 							<input type="text" name="" id="" value="" placeholder="订阅我们的邮件"/>
-							<a href="#">订阅</a>
+							<a>订阅</a>
 						</div>
 						<ul class="nums">
 							<li> · 新商品数量<em>300</em>件</li>
@@ -615,48 +617,48 @@
 				</div>
 			</div>
 			<div class="footer_bottom">
-				<a href="#"><img src="../css/img/alipay.jpg"/></a>
-				<a href="#"><img src="../css/img/cert.png"/></a>
-				<a href="#"><img src="../css/img/cnnic.png"/></a>
-				<a href="#"><img src="../css/img/12377.jpg"/></a>
-				<a href="#"><img src="../css/img/12377_app.jpg"/></a>
-				<a href="#"><img src="../css/img/direct.jpg"/></a>
-				<a href="#"><img src="../css/img/charge.jpg"/></a>
-				<a href="#"><img src="../css/img/quality.jpg"/></a>
+				<a><img src="../css/img/alipay.jpg"/></a>
+				<a><img src="../css/img/cert.png"/></a>
+				<a><img src="../css/img/cnnic.png"/></a>
+				<a><img src="../css/img/12377.jpg"/></a>
+				<a><img src="../css/img/12377_app.jpg"/></a>
+				<a><img src="../css/img/direct.jpg"/></a>
+				<a><img src="../css/img/charge.jpg"/></a>
+				<a><img src="../css/img/quality.jpg"/></a>
 			</div>
 		</div>
-		<!--------------------------top_nav------------------------------------>
+		<!--------------------------top_nav吸顶菜单------------------------------------>
 		<div id="top_bar" class="top_bar">
-			<a class="indexs" href="index.html">shishangqiyi</a>
+			<a class="indexs" href="../index.html">shishangqiyi</a>
 			<ul>
-				<li><a href="#">最新商品</a></li>
-				<li><a href="#">一周爆款</a></li>
+				<li><a href="list.html">最新商品</a></li>
+				<li><a href="list.html">一周爆款</a></li>
 				<li><a href="list.html">上衣</a></li>
-				<li><a href="#">衬衫&罩衫</a></li>
-				<li><a href="#">外套</a></li>
-				<li><a href="#">半身裙</a></li>
-				<li><a href="#">连衣裙</a></li>
-				<li><a href="#">裤装</a></li>
-				<li><a href="#">鞋&包</a></li>
-				<li><a href="#">配饰</a></li>
-				<li><a href="#">内衣</a></li>
-				<li><a href="#">SUMMER</a></li>
-				<li><a href="#">美妆</a></li>
-				<li><a href="#">热卖商品</a></li>
-				<li><a href="#">最佳口碑</a></li>
+				<li><a href="list.html">衬衫&罩衫</a></li>
+				<li><a href="list.html">外套</a></li>
+				<li><a href="list.html">半身裙</a></li>
+				<li><a href="list.html">连衣裙</a></li>
+				<li><a href="list.html">裤装</a></li>
+				<li><a href="list.html">鞋&包</a></li>
+				<li><a href="list.html">配饰</a></li>
+				<li><a href="list.html">内衣</a></li>
+				<li><a href="list.html">SUMMER</a></li>
+				<li><a href="list.html">美妆</a></li>
+				<li><a href="list.html">热卖商品</a></li>
+				<li><a href="list.html">最佳口碑</a></li>
 			</ul>
 		</div>
 		<!--------------------------login------------------------------------>
 		<div class="pop_Alpha"></div>
 		<div class="pop_login">
 			<div class="pop_login_wraper">
-				<a href="#" class="pop_login_close"></a>
+				<a class="pop_login_close"></a>
 				<ul class="pop_login_box">
 					<!--登录-->
 					<li class="reg_login">
 						<ul class="reg_select">
-							<li class="cur"><a href="#">普通会员登录</a></li>
-							<li><a href="#">批发会员登录</a></li>
+							<li class="cur"><a>普通会员登录</a></li>
+							<li><a>批发会员登录</a></li>
 						</ul>
 						<ul>
 							<li class="login_pt">
@@ -673,7 +675,7 @@
 												<input type="password" name="pwd_login" id="" value="" maxlength="15" size="30" class="pwd" tabindex="2" placeholder="您的密码"/>
 											</div>
 										</div>
-										<a href="#" class="pop_login_submit">登录</a>
+										<a class="pop_login_submit">登录</a>
 									</div>
 									<div class="pop_login_tip">
 										<div class="save">
@@ -682,9 +684,9 @@
 											</label>
 										</div>
 										<div class="login_item">
-											<a href="#" class="register" id="register">新用户注册</a>|
-											<a href="#">忘记密码</a>|
-											<a href="#">支付宝登录</a>
+											<a class="register" id="register">新用户注册</a>|
+											<a>忘记密码</a>|
+											<a>支付宝登录</a>
 										</div>
 									</div>
 								</form>
@@ -696,7 +698,6 @@
 									</div>
 									<div class="pop_login_form">
 										<div class="pop_login_input">
-											<!--<div class="emailcheckstr"></div>-->
 											<div>
 												<input type="text" name="userid" id="" value="" size="30" maxlength="40" class="text" tabindex="1" placeholder="电子邮件"/>
 											</div>
@@ -704,7 +705,7 @@
 												<input type="password" name="pwd_login" id="" value="" maxlength="15" size="30" class="pwd" tabindex="2" placeholder="您的密码"/>
 											</div>
 										</div>
-										<a href="#" class="pop_login_submit">登录</a>
+										<a class="pop_login_submit">登录</a>
 									</div>
 									<div class="pop_login_tip">
 										<div class="save">
@@ -713,8 +714,8 @@
 											</label>
 										</div>
 										<div class="login_item">
-											<a href="#" class="register" id="register">新用户注册</a>|
-											<a href="#">忘记密码</a>
+											<a class="register" id="register">新用户注册</a>|
+											<a>忘记密码</a>
 										</div>
 									</div>
 								</form>
@@ -724,8 +725,8 @@
 					<!--注册-->
 					<li class="reg_register">
 						<ul class="reg_select">
-							<li class="cur"><a href="#">普通会员注册</a></li>
-							<li><a href="#">批发会员注册</a></li>
+							<li class="cur"><a>普通会员注册</a></li>
+							<li><a>批发会员注册</a></li>
 						</ul>
 						<ul class="reg_frm">
 							<li class="register_pt">
@@ -784,11 +785,11 @@
 													<input type="checkbox" name="agreement" id="" value="" checked="checked"/> 我已阅读并同意《<a href="#">时尚起义用户使用条款</a>》
 												</div>
 												<div class="pop_login_reg">
-													<a href="#" class="login">老用户登录</a>
+													<a class="login">老用户登录</a>
 												</div>
 											</div>
 										</div>
-										<a href="#" class="pop_register_submit">注册<br/><em>(送5元现金)</em></a>
+										<a class="pop_register_submit">注册<br/><em>(送5元现金)</em></a>
 									</div>
 								</form>
 							</li>
@@ -879,11 +880,11 @@
 												<input type="checkbox" name="agreement" id="" value="" checked="checked"/> 我已阅读并同意《<a href="#">时尚起义用户使用条款</a>》
 											</div>
 											<div class="pop_login_reg">
-												<a href="#" class="login">老用户登录</a>
+												<a class="login">老用户登录</a>
 											</div>
 										</div>
 										<div class="pop_wholesale_reg">
-											<a href="#" class="pop_wholesale_submit">批发会员注册</a>
+											<a class="pop_wholesale_submit">批发会员注册</a>
 										</div>
 									</div>
 								</form>

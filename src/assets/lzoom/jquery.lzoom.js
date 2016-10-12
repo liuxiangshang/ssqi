@@ -26,7 +26,6 @@
 			var $smallImg = $('img',$self);
 			
 			var bigUrl = $smallImg.attr('data-big') || $smallImg.attr('src');
-			
 			//执行初始化操作
 			$smallImg.load(function(){
 				init();

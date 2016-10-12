@@ -8,7 +8,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb1.gif",
 		"url":"detail.html",
-		"price":"¥ 404",
+		"price":404,
 		"star":1,
 		"commentCount":10002
 	},
@@ -21,7 +21,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb2.jpg",
 		"url":"detail.html",
-		"price":"¥ 256",
+		"price":256,
 		"star":1,
 		"commentCount":10002
 	},
@@ -34,7 +34,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb3.jpg",
 		"url":"detail.html",
-		"price":"¥ 307",
+		"price":307,
 		"star":1,
 		"commentCount":10002
 	},
@@ -47,7 +47,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb4.jpg",
 		"url":"detail.html",
-		"price":"¥ 274",
+		"price":274,
 		"star":1,
 		"commentCount":10002
 	},
@@ -60,7 +60,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb5.jpg",
 		"url":"detail.html",
-		"price":"¥ 118",
+		"price":118,
 		"star":1,
 		"commentCount":10002
 	},
@@ -73,7 +73,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb6.jpg",
 		"url":"detail.html",
-		"price":"¥ 269",
+		"price":269,
 		"star":1,
 		"commentCount":10002
 	},
@@ -86,7 +86,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb7.jpg",
 		"url":"detail.html",
-		"price":"¥ 374",
+		"price":374,
 		"star":1,
 		"commentCount":10002
 	},
@@ -99,7 +99,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb8.jpg",
 		"url":"detail.html",
-		"price":"¥ 100",
+		"price":100,
 		"star":1,
 		"commentCount":10002
 	},
@@ -112,7 +112,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb9.jpg",
 		"url":"detail.html",
-		"price":"¥ 100",
+		"price":100,
 		"star":1,
 		"commentCount":10002
 	},
@@ -125,7 +125,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb10.gif",
 		"url":"detail.html",
-		"price":"¥ 317",
+		"price":317,
 		"star":1,
 		"commentCount":10002
 	},
@@ -138,7 +138,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb11.jpg",
 		"url":"detail.html",
-		"price":"¥ 1,276",
+		"price":1276,
 		"star":1,
 		"commentCount":10002
 	},
@@ -151,7 +151,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb12.jpg",
 		"url":"detail.html",
-		"price":"¥ 567",
+		"price":567,
 		"star":1,
 		"commentCount":10002
 	},
@@ -164,7 +164,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb13.jpg",
 		"url":"detail.html",
-		"price":"¥ 404",
+		"price":404,
 		"star":1,
 		"commentCount":10002
 	},
@@ -177,7 +177,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb14.jpg",
 		"url":"detail.html",
-		"price":"¥ 256",
+		"price":256,
 		"star":1,
 		"commentCount":10002
 	},
@@ -190,7 +190,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb15.jpg",
 		"url":"detail.html",
-		"price":"¥ 307",
+		"price":307,
 		"star":1,
 		"commentCount":10002
 	},
@@ -203,7 +203,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb16.jpg",
 		"url":"detail.html",
-		"price":"¥ 274",
+		"price":274,
 		"star":1,
 		"commentCount":10002
 	},
@@ -216,7 +216,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb17.gif",
 		"url":"detail.html",
-		"price":"¥ 118",
+		"price":118,
 		"star":1,
 		"commentCount":10002
 	},
@@ -229,7 +229,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb18.jpg",
 		"url":"detail.html",
-		"price":"¥ 269",
+		"price":269,
 		"star":1,
 		"commentCount":10002
 	},
@@ -242,7 +242,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb19.jpg",
 		"url":"detail.html",
-		"price":"¥ 374",
+		"price":374,
 		"star":1,
 		"commentCount":10002
 	},
@@ -255,7 +255,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb20.gif",
 		"url":"detail.html",
-		"price":"¥ 100",
+		"price":100,
 		"star":1,
 		"commentCount":10002
 	},
@@ -268,7 +268,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb21.jpg",
 		"url":"detail.html",
-		"price":"¥ 100",
+		"price":100,
 		"star":2,
 		"commentCount":10002
 	},
@@ -281,7 +281,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb22.gif",
 		"url":"detail.html",
-		"price":"¥ 317",
+		"price":317,
 		"star":2,
 		"commentCount":10002
 	},
@@ -294,7 +294,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb23.gif",
 		"url":"detail.html",
-		"price":"¥ 1,276",
+		"price":1276,
 		"star":2,
 		"commentCount":10002
 	},
@@ -307,7 +307,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb24.jpg",
 		"url":"detail.html",
-		"price":"¥ 567",
+		"price":567,
 		"star":2,
 		"commentCount":10002
 	},
@@ -320,7 +320,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb25.jpg",
 		"url":"detail.html",
-		"price":"¥ 404",
+		"price":404,
 		"star":2,
 		"commentCount":10002
 	},
@@ -333,7 +333,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb26.jpg",
 		"url":"detail.html",
-		"price":"¥ 256",
+		"price":256,
 		"star":2,
 		"commentCount":10002
 	},
@@ -346,7 +346,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb27.jpg",
 		"url":"detail.html",
-		"price":"¥ 307",
+		"price":307,
 		"star":2,
 		"commentCount":10002
 	},
@@ -359,7 +359,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb28.jpg",
 		"url":"detail.html",
-		"price":"¥ 274",
+		"price":274,
 		"star":2,
 		"commentCount":10002
 	},
@@ -372,7 +372,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb29.gif",
 		"url":"detail.html",
-		"price":"¥ 118",
+		"price":118,
 		"star":2,
 		"commentCount":10002
 	},
@@ -385,7 +385,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb30.jpg",
 		"url":"detail.html",
-		"price":"¥ 269",
+		"price":269,
 		"star":2,
 		"commentCount":10002
 	},
@@ -398,7 +398,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb31.gif",
 		"url":"detail.html",
-		"price":"¥ 374",
+		"price":374,
 		"star":2,
 		"commentCount":10002
 	},
@@ -411,7 +411,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb32.jpg",
 		"url":"detail.html",
-		"price":"¥ 100",
+		"price":100,
 		"star":2,
 		"commentCount":10002
 	},
@@ -424,7 +424,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb33.jpg",
 		"url":"detail.html",
-		"price":"¥ 100",
+		"price":100,
 		"star":2,
 		"commentCount":10002
 	},
@@ -437,7 +437,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb34.jpg",
 		"url":"detail.html",
-		"price":"¥ 317",
+		"price":317,
 		"star":2,
 		"commentCount":10002
 	},
@@ -450,7 +450,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb35.jpg",
 		"url":"detail.html",
-		"price":"¥ 1,276",
+		"price":1276,
 		"star":2,
 		"commentCount":10002
 	},
@@ -463,7 +463,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb36.jpg",
 		"url":"detail.html",
-		"price":"¥ 567",
+		"price":567,
 		"star":2,
 		"commentCount":10002
 	},
@@ -476,7 +476,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb37.jpg",
 		"url":"detail.html",
-		"price":"¥ 404",
+		"price":404,
 		"star":2,
 		"commentCount":10002
 	},
@@ -489,7 +489,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb38.jpg",
 		"url":"detail.html",
-		"price":"¥ 256",
+		"price":256,
 		"star":2,
 		"commentCount":10002
 	},
@@ -502,7 +502,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb39.gif",
 		"url":"detail.html",
-		"price":"¥ 307",
+		"price":307,
 		"star":2,
 		"commentCount":10002
 	},
@@ -515,7 +515,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb40.jpg",
 		"url":"detail.html",
-		"price":"¥ 274",
+		"price":274,
 		"star":2,
 		"commentCount":10002
 	},
@@ -528,7 +528,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb41.gif",
 		"url":"detail.html",
-		"price":"¥ 118",
+		"price":118,
 		"star":3,
 		"commentCount":10002
 	},
@@ -541,7 +541,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb42.jpg",
 		"url":"detail.html",
-		"price":"¥ 269",
+		"price":269,
 		"star":3,
 		"commentCount":10002
 	},
@@ -554,7 +554,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb43.jpg",
 		"url":"detail.html",
-		"price":"¥ 374",
+		"price":374,
 		"star":3,
 		"commentCount":10002
 	},
@@ -567,7 +567,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb44.jpg",
 		"url":"detail.html",
-		"price":"¥ 100",
+		"price":100,
 		"star":3,
 		"commentCount":10002
 	},
@@ -580,7 +580,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb45.jpg",
 		"url":"detail.html",
-		"price":"¥ 100",
+		"price":100,
 		"star":3,
 		"commentCount":10002
 	},
@@ -593,7 +593,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb46.jpg",
 		"url":"detail.html",
-		"price":"¥ 317",
+		"price":317,
 		"star":3,
 		"commentCount":10002
 	},
@@ -606,7 +606,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb47.jpg",
 		"url":"detail.html",
-		"price":"¥ 1,276",
+		"price":1276,
 		"star":3,
 		"commentCount":10002
 	},
@@ -619,7 +619,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb48.gif",
 		"url":"detail.html",
-		"price":"¥ 567",
+		"price":567,
 		"star":3,
 		"commentCount":10002
 	},
@@ -632,7 +632,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb49.jpg",
 		"url":"detail.html",
-		"price":"¥ 404",
+		"price":404,
 		"star":3,
 		"commentCount":10002
 	},
@@ -645,7 +645,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb50.gif",
 		"url":"detail.html",
-		"price":"¥ 256",
+		"price":256,
 		"star":3,
 		"commentCount":10002
 	},
@@ -658,7 +658,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb51.gif",
 		"url":"detail.html",
-		"price":"¥ 307",
+		"price":307,
 		"star":3,
 		"commentCount":10002
 	},
@@ -671,7 +671,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb52.jpg",
 		"url":"detail.html",
-		"price":"¥ 274",
+		"price":274,
 		"star":3,
 		"commentCount":10002
 	},
@@ -684,7 +684,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb53.jpg",
 		"url":"detail.html",
-		"price":"¥ 118",
+		"price":118,
 		"star":3,
 		"commentCount":10002
 	},
@@ -697,7 +697,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb54.jpg",
 		"url":"detail.html",
-		"price":"¥ 269",
+		"price":269,
 		"star":3,
 		"commentCount":10002
 	},
@@ -710,7 +710,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb55.jpg",
 		"url":"detail.html",
-		"price":"¥ 374",
+		"price":374,
 		"star":3,
 		"commentCount":10002
 	},
@@ -723,7 +723,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb56.gif",
 		"url":"detail.html",
-		"price":"¥ 100",
+		"price":100,
 		"star":3,
 		"commentCount":10002
 	},
@@ -736,7 +736,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb57.jpg",
 		"url":"detail.html",
-		"price":"¥ 100",
+		"price":100,
 		"star":3,
 		"commentCount":10002
 	},
@@ -749,7 +749,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb58.gif",
 		"url":"detail.html",
-		"price":"¥ 317",
+		"price":317,
 		"star":3,
 		"commentCount":10002
 	},
@@ -762,7 +762,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb59.gif",
 		"url":"detail.html",
-		"price":"¥ 1,276",
+		"price":1276,
 		"star":3,
 		"commentCount":10002
 	},
@@ -775,7 +775,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb60.jpg",
 		"url":"detail.html",
-		"price":"¥ 567",
+		"price":567,
 		"star":3,
 		"commentCount":10002
 	},
@@ -788,7 +788,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb61.jpg",
 		"url":"detail.html",
-		"price":"¥ 404",
+		"price":404,
 		"star":4,
 		"commentCount":10002
 	},
@@ -801,7 +801,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb62.jpg",
 		"url":"detail.html",
-		"price":"¥ 256",
+		"price":256,
 		"star":4,
 		"commentCount":10002
 	},
@@ -814,7 +814,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb63.jpg",
 		"url":"detail.html",
-		"price":"¥ 307",
+		"price":307,
 		"star":4,
 		"commentCount":10002
 	},
@@ -827,7 +827,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb64.jpg",
 		"url":"detail.html",
-		"price":"¥ 274",
+		"price":274,
 		"star":4,
 		"commentCount":10002
 	},
@@ -840,7 +840,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb65.gif",
 		"url":"detail.html",
-		"price":"¥ 118",
+		"price":118,
 		"star":4,
 		"commentCount":10002
 	},
@@ -853,7 +853,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb66.jpg",
 		"url":"detail.html",
-		"price":"¥ 269",
+		"price":269,
 		"star":4,
 		"commentCount":10002
 	},
@@ -866,7 +866,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb67.jpg",
 		"url":"detail.html",
-		"price":"¥ 374",
+		"price":374,
 		"star":4,
 		"commentCount":10002
 	},
@@ -879,7 +879,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb68.jpg",
 		"url":"detail.html",
-		"price":"¥ 100",
+		"price":100,
 		"star":4,
 		"commentCount":10002
 	},
@@ -892,7 +892,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb69.gif",
 		"url":"detail.html",
-		"price":"¥ 100",
+		"price":100,
 		"star":4,
 		"commentCount":10002
 	},
@@ -905,7 +905,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb70.gif",
 		"url":"detail.html",
-		"price":"¥ 317",
+		"price":317,
 		"star":4,
 		"commentCount":10002
 	},
@@ -918,7 +918,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb71.gif",
 		"url":"detail.html",
-		"price":"¥ 1,276",
+		"price":1276,
 		"star":4,
 		"commentCount":10002
 	},
@@ -931,7 +931,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb72.gif",
 		"url":"detail.html",
-		"price":"¥ 567",
+		"price":567,
 		"star":4,
 		"commentCount":10002
 	},
@@ -944,7 +944,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb73.jpg",
 		"url":"detail.html",
-		"price":"¥ 404",
+		"price":404,
 		"star":4,
 		"commentCount":10002
 	},
@@ -957,7 +957,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb74.jpg",
 		"url":"detail.html",
-		"price":"¥ 256",
+		"price":256,
 		"star":4,
 		"commentCount":10002
 	},
@@ -970,7 +970,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb75.gif",
 		"url":"detail.html",
-		"price":"¥ 307",
+		"price":307,
 		"star":4,
 		"commentCount":10002
 	},
@@ -983,7 +983,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb76.jpg",
 		"url":"detail.html",
-		"price":"¥ 274",
+		"price":274,
 		"star":4,
 		"commentCount":10002
 	},
@@ -996,7 +996,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb77.jpg",
 		"url":"detail.html",
-		"price":"¥ 118",
+		"price":118,
 		"star":4,
 		"commentCount":10002
 	},
@@ -1009,7 +1009,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb78.gif",
 		"url":"detail.html",
-		"price":"¥ 269",
+		"price":269,
 		"star":4,
 		"commentCount":10002
 	},
@@ -1022,7 +1022,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb79.jpg",
 		"url":"detail.html",
-		"price":"¥ 374",
+		"price":374,
 		"star":4,
 		"commentCount":10002
 	},
@@ -1035,7 +1035,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb80.jpg",
 		"url":"detail.html",
-		"price":"¥ 100",
+		"price":100,
 		"star":4,
 		"commentCount":10002
 	},
@@ -1048,7 +1048,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb81.jpg",
 		"url":"detail.html",
-		"price":"¥ 100",
+		"price":100,
 		"star":5,
 		"commentCount":10002
 	},
@@ -1061,7 +1061,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb82.jpg",
 		"url":"detail.html",
-		"price":"¥ 317",
+		"price":317,
 		"star":5,
 		"commentCount":10002
 	},
@@ -1074,7 +1074,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb83.jpg",
 		"url":"detail.html",
-		"price":"¥ 1,276",
+		"price":1276,
 		"star":5,
 		"commentCount":10002
 	},
@@ -1087,7 +1087,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb84.jpg",
 		"url":"detail.html",
-		"price":"¥ 567",
+		"price":567,
 		"star":5,
 		"commentCount":10002
 	},
@@ -1100,7 +1100,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb85.gif",
 		"url":"detail.html",
-		"price":"¥ 404",
+		"price":404,
 		"star":5,
 		"commentCount":10002
 	},
@@ -1113,7 +1113,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb86.jpg",
 		"url":"detail.html",
-		"price":"¥ 256",
+		"price":256,
 		"star":5,
 		"commentCount":10002
 	},
@@ -1126,7 +1126,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb87.jpg",
 		"url":"detail.html",
-		"price":"¥ 307",
+		"price":307,
 		"star":5,
 		"commentCount":10002
 	},
@@ -1139,7 +1139,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb88.jpg",
 		"url":"detail.html",
-		"price":"¥ 274",
+		"price":274,
 		"star":5,
 		"commentCount":10002
 	},
@@ -1152,7 +1152,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb89.jpg",
 		"url":"detail.html",
-		"price":"¥ 118",
+		"price":118,
 		"star":5,
 		"commentCount":10002
 	},
@@ -1165,7 +1165,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb90.gif",
 		"url":"detail.html",
-		"price":"¥ 269",
+		"price":269,
 		"star":5,
 		"commentCount":10002
 	},
@@ -1178,7 +1178,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb91.jpg",
 		"url":"detail.html",
-		"price":"¥ 374",
+		"price":374,
 		"star":5,
 		"commentCount":10002
 	},
@@ -1191,7 +1191,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb92.gif",
 		"url":"detail.html",
-		"price":"¥ 100",
+		"price":100,
 		"star":5,
 		"commentCount":10002
 	},
@@ -1204,7 +1204,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb93.jpg",
 		"url":"detail.html",
-		"price":"¥ 100",
+		"price":100,
 		"star":5,
 		"commentCount":10002
 	},
@@ -1217,7 +1217,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb94.jpg",
 		"url":"detail.html",
-		"price":"¥ 317",
+		"price":317,
 		"star":5,
 		"commentCount":10002
 	},
@@ -1230,7 +1230,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb95.jpg",
 		"url":"detail.html",
-		"price":"¥ 1,276",
+		"price":1276,
 		"star":5,
 		"commentCount":10002
 	},
@@ -1243,7 +1243,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb96.gif",
 		"url":"detail.html",
-		"price":"¥ 567",
+		"price":567,
 		"star":5,
 		"commentCount":10002
 	},
@@ -1256,7 +1256,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb97.gif",
 		"url":"detail.html",
-		"price":"¥ 404",
+		"price":404,
 		"star":5,
 		"commentCount":10002
 	},
@@ -1269,7 +1269,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb98.gif",
 		"url":"detail.html",
-		"price":"¥ 256",
+		"price":256,
 		"star":5,
 		"commentCount":10002
 	},
@@ -1282,7 +1282,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb99.jpg",
 		"url":"detail.html",
-		"price":"¥ 307",
+		"price":307,
 		"star":5,
 		"commentCount":10002
 	},
@@ -1295,7 +1295,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb100.gif",
 		"url":"detail.html",
-		"price":"¥ 274",
+		"price":274,
 		"star":5,
 		"commentCount":10002
 	},
@@ -1308,7 +1308,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb101.jpg",
 		"url":"detail.html",
-		"price":"¥ 118",
+		"price":118,
 		"star":6,
 		"commentCount":10002
 	},
@@ -1321,7 +1321,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb102.jpg",
 		"url":"detail.html",
-		"price":"¥ 269",
+		"price":269,
 		"star":6,
 		"commentCount":10002
 	},
@@ -1334,7 +1334,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb103.jpg",
 		"url":"detail.html",
-		"price":"¥ 374",
+		"price":374,
 		"star":6,
 		"commentCount":10002
 	},
@@ -1347,7 +1347,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb104.jpg",
 		"url":"detail.html",
-		"price":"¥ 100",
+		"price":100,
 		"star":6,
 		"commentCount":10002
 	},
@@ -1360,7 +1360,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb105.jpg",
 		"url":"detail.html",
-		"price":"¥ 100",
+		"price":100,
 		"star":6,
 		"commentCount":10002
 	},
@@ -1373,7 +1373,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb106.jpg",
 		"url":"detail.html",
-		"price":"¥ 317",
+		"price":317,
 		"star":6,
 		"commentCount":10002
 	},
@@ -1386,7 +1386,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb107.gif",
 		"url":"detail.html",
-		"price":"¥ 1,276",
+		"price":1276,
 		"star":6,
 		"commentCount":10002
 	},
@@ -1399,7 +1399,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb108.jpg",
 		"url":"detail.html",
-		"price":"¥ 567",
+		"price":567,
 		"star":6,
 		"commentCount":10002
 	},
@@ -1412,7 +1412,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb109.gif",
 		"url":"detail.html",
-		"price":"¥ 404",
+		"price":404,
 		"star":6,
 		"commentCount":10002
 	},
@@ -1425,7 +1425,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb110.jpg",
 		"url":"detail.html",
-		"price":"¥ 256",
+		"price":256,
 		"star":6,
 		"commentCount":10002
 	},
@@ -1438,7 +1438,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb111.jpg",
 		"url":"detail.html",
-		"price":"¥ 307",
+		"price":307,
 		"star":6,
 		"commentCount":10002
 	},
@@ -1451,7 +1451,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb112.jpg",
 		"url":"detail.html",
-		"price":"¥ 274",
+		"price":274,
 		"star":6,
 		"commentCount":10002
 	},
@@ -1464,7 +1464,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb113.jpg",
 		"url":"detail.html",
-		"price":"¥ 118",
+		"price":118,
 		"star":6,
 		"commentCount":10002
 	},
@@ -1477,7 +1477,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb114.jpg",
 		"url":"detail.html",
-		"price":"¥ 269",
+		"price":269,
 		"star":6,
 		"commentCount":10002
 	},
@@ -1490,7 +1490,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb115.gif",
 		"url":"detail.html",
-		"price":"¥ 374",
+		"price":374,
 		"star":6,
 		"commentCount":10002
 	},
@@ -1503,7 +1503,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb116.jpg",
 		"url":"detail.html",
-		"price":"¥ 100",
+		"price":100,
 		"star":6,
 		"commentCount":10002
 	},
@@ -1516,7 +1516,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb117.gif",
 		"url":"detail.html",
-		"price":"¥ 100",
+		"price":100,
 		"star":6,
 		"commentCount":10002
 	},
@@ -1529,7 +1529,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb118.gif",
 		"url":"detail.html",
-		"price":"¥ 317",
+		"price":317,
 		"star":6,
 		"commentCount":10002
 	},
@@ -1542,7 +1542,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb119.jpg",
 		"url":"detail.html",
-		"price":"¥ 1,276",
+		"price":1276,
 		"star":6,
 		"commentCount":10002
 	},
@@ -1555,7 +1555,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb120.jpg",
 		"url":"detail.html",
-		"price":"¥ 567",
+		"price":567,
 		"star":6,
 		"commentCount":10002
 	},
@@ -1568,7 +1568,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb121.jpg",
 		"url":"detail.html",
-		"price":"¥ 404",
+		"price":404,
 		"star":7,
 		"commentCount":10002
 	},
@@ -1581,7 +1581,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb122.jpg",
 		"url":"detail.html",
-		"price":"¥ 256",
+		"price":256,
 		"star":7,
 		"commentCount":10002
 	},
@@ -1594,7 +1594,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb123.jpg",
 		"url":"detail.html",
-		"price":"¥ 307",
+		"price":307,
 		"star":7,
 		"commentCount":10002
 	},
@@ -1607,7 +1607,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb124.jpg",
 		"url":"detail.html",
-		"price":"¥ 274",
+		"price":274,
 		"star":7,
 		"commentCount":10002
 	},
@@ -1620,7 +1620,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb125.jpg",
 		"url":"detail.html",
-		"price":"¥ 118",
+		"price":118,
 		"star":7,
 		"commentCount":10002
 	},
@@ -1633,7 +1633,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb126.jpg",
 		"url":"detail.html",
-		"price":"¥ 269",
+		"price":269,
 		"star":7,
 		"commentCount":10002
 	},
@@ -1646,7 +1646,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb127.jpg",
 		"url":"detail.html",
-		"price":"¥ 374",
+		"price":374,
 		"star":7,
 		"commentCount":10002
 	},
@@ -1659,7 +1659,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb128.jpg",
 		"url":"detail.html",
-		"price":"¥ 100",
+		"price":100,
 		"star":7,
 		"commentCount":10002
 	},
@@ -1672,7 +1672,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb129.jpg",
 		"url":"detail.html",
-		"price":"¥ 100",
+		"price":100,
 		"star":7,
 		"commentCount":10002
 	},
@@ -1685,7 +1685,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb130.jpg",
 		"url":"detail.html",
-		"price":"¥ 317",
+		"price":317,
 		"star":7,
 		"commentCount":10002
 	},
@@ -1698,7 +1698,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb131.jpg",
 		"url":"detail.html",
-		"price":"¥ 1,276",
+		"price":1276,
 		"star":7,
 		"commentCount":10002
 	},
@@ -1711,7 +1711,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb132.jpg",
 		"url":"detail.html",
-		"price":"¥ 567",
+		"price":567,
 		"star":7,
 		"commentCount":10002
 	},
@@ -1724,7 +1724,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb133.gif",
 		"url":"detail.html",
-		"price":"¥ 404",
+		"price":404,
 		"star":7,
 		"commentCount":10002
 	},
@@ -1737,7 +1737,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb134.jpg",
 		"url":"detail.html",
-		"price":"¥ 256",
+		"price":256,
 		"star":7,
 		"commentCount":10002
 	},
@@ -1750,7 +1750,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb135.gif",
 		"url":"detail.html",
-		"price":"¥ 307",
+		"price":307,
 		"star":7,
 		"commentCount":10002
 	},
@@ -1763,7 +1763,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb136.gif",
 		"url":"detail.html",
-		"price":"¥ 274",
+		"price":274,
 		"star":7,
 		"commentCount":10002
 	},
@@ -1776,7 +1776,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb137.jpg",
 		"url":"detail.html",
-		"price":"¥ 118",
+		"price":118,
 		"star":7,
 		"commentCount":10002
 	},
@@ -1789,7 +1789,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb138.jpg",
 		"url":"detail.html",
-		"price":"¥ 269",
+		"price":269,
 		"star":7,
 		"commentCount":10002
 	},
@@ -1802,7 +1802,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb139.jpg",
 		"url":"detail.html",
-		"price":"¥ 374",
+		"price":374,
 		"star":7,
 		"commentCount":10002
 	},
@@ -1815,7 +1815,7 @@
 		"category":"shoes",
 		"imgurl":"../img/lb140.jpg",
 		"url":"detail.html",
-		"price":"¥ 100",
+		"price":100,
 		"star":7,
 		"commentCount":10002
 	}

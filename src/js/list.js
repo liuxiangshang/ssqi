@@ -21,9 +21,13 @@ function goods_list () {
 					$li.append($("<p></p>").addClass("Gtitle").append($("<a></a>").attr({href:items.url}).html(items.han_title)));
 					$("<p></p>").addClass("Gtitle").append($("<a></a>").attr({href:items.url}).html(items.title)).appendTo($li);
 					$("<p></p>").addClass("Gname").append($("<a></a>").attr({href:items.url}).html(items.english_title)).appendTo($li);
-					$("<p></p>").addClass("Gprice").html(items.price).appendTo($li);
+					$("<p></p>").addClass("Gprice").html("¥ "+items.price).appendTo($li);
 					$li.appendTo($ul);
+					$li.on("click",$(".list_items"),function () {
+						var listId = setCookie("listId",items.id);
+					});
 				}
+				
 			});
 					
 			var i = 1;
@@ -40,21 +44,21 @@ function goods_list () {
 							//给$img添加src
 							$img.attr({src:items.imgurl}).appendTo($a);
 							//给$a添加href
-							$a.attr({href:items.url,target:"_blank"}).appendTo($li);
+							$a.attr({href:items.url}).appendTo($li);
 							$("<p></p>").html(items.gicon).css({"color":"red","font-weight": "bold","font-size":"14px"}).appendTo($li);
-							$li.append($("<p></p>").addClass("Gtitle").append($("<a></a>").attr({href:items.url,target:"_blank"}).html(items.han_title)));
-							$("<p></p>").addClass("Gtitle").append($("<a></a>").attr({href:items.url,target:"_blank"}).html(items.title)).appendTo($li);
-							$("<p></p>").addClass("Gname").append($("<a></a>").attr({href:items.url,target:"_blank"}).html(items.english_title)).appendTo($li);
+							$li.append($("<p></p>").addClass("Gtitle").append($("<a></a>").attr({href:items.url}).html(items.han_title)));
+							$("<p></p>").addClass("Gtitle").append($("<a></a>").attr({href:items.url}).html(items.title)).appendTo($li);
+							$("<p></p>").addClass("Gname").append($("<a></a>").attr({href:items.url}).html(items.english_title)).appendTo($li);
 							$("<p></p>").addClass("Gprice").html(items.price).appendTo($li);
 							$li.appendTo($ul);
+							$li.on("click",$(".list_items"),function () {
+								var listId = setCookie("listId",items.id);
+							});
 						}
 					});
 				}
 			});
 			$ul.addClass("salelist").appendTo($(".list_items"));
-			
-			var $list_a = $(".list_items .salelist li");
-			console.log($list_a);
 		}
 	});
 	
