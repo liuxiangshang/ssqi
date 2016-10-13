@@ -66,7 +66,6 @@
 						$span.html(i).appendTo($page);
 					}
 					$page.appendTo($self);
-					
 					// 点击页码切换	
 					$page.on('click','span',function(){
 						index = $(this).index();
@@ -87,7 +86,6 @@
 				}else if(opt.type === 'fade'){
 					$ul.addClass('type-fade').children().css({opacity:0}).eq(index).css({opacity:1});
 				}
-				
 				// 左右按钮
 				if(opt.buttons){
 					$('<div/>').html('&gt;').addClass('next').appendTo($self);
@@ -100,25 +98,21 @@
 						showPic();
 					});
 				}
-				
 			}
 			// 图片展示效果
-			function showPic(){
-				
+			function showPic(){	
 				if(index>=len/2+1){
-                 
 					index = 1;
 					if(opt.type === 'x'){				
 					$ul.css({left:0});
 					}else if(opt.type === 'y'){
 						$ul.css({top:0});
 					}else if(opt.type === 'fade'){
-		       $ul.children().eq(0).css({opacity:1}).siblings('li').css({opacity:0});				
+		       			$ul.children().eq(0).css({opacity:1}).siblings('li').css({opacity:0});				
 					}
 				}else if(index < 0){
 					index = len/2 - 1;
 				}
-
 				// console.log(imgHeight,index)
 				if(opt.type === 'x'){
 					$ul.animate({left:-opt.width*index});
