@@ -59,7 +59,7 @@ function clicks () {//删除购物车内商品
 			$lis.eq(idx).remove();
 			//删除cookie数组中的当前下标
 			goodList.splice(idx,1);
-			存入cookie中
+			//存入cookie中
 			var goodscookie = JSON.stringify(goodList);
 			var d = new Date(10);
 			//把字符串存入cookie中
