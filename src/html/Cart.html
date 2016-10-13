@@ -15,10 +15,15 @@
 		<script src="../js/cart.js" type="text/javascript" charset="utf-8"></script>
 		<script type="text/javascript">
 			jQuery(function ($) {
+				var urls = "Cart.html";
 				lcommon();
 				listcart();
 				goodsCart();
-				clicks();				
+				clicks();	
+				cookie_register(urls);
+				cookie_wholesale(urls);
+				cookie_login(urls);
+				cookie_wholesale_login(urls);
 			});
 		</script>
 	</head>

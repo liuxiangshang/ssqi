@@ -16,7 +16,7 @@
 				});
 				$ul.prependTo($lcarousel);
 				$lcarousel.prependTo($(".wraper"));
-				调用轮播图方法
+				//调用轮播图方法
 				$lcarousel.lcarousel({
 					width:1100,
 					height:400,
