@@ -61,7 +61,7 @@ function details () {
 						var goods = {};
 						//获取已有的cookie
 						var oldcookie = getCookie("goodscke");
-						//console.log(oldcookie);
+						//当cookie为空时添加cookie
 						if (oldcookie == "") {
 							goods.id = items.id;
 							goods.img = items.imgurl;
@@ -71,22 +71,22 @@ function details () {
 							goods.color = $(".gcolor").val();
 							goods.size = $(".gsize").val();
 							goods.emoney = parseInt($(".emoney strong").html());
-							
 							goodList.push(goods);
-						} else{
+						} else{//当有cookie时
 							//把cookie字符串转换为数组
 							goodList = JSON.parse(oldcookie);
 							//循环遍历数组
 							var j = true;
+							//遍历数组
 							for (var i = 0; i < goodList.length; i++) {
 								//数组中存在id与当前点击的商品id一样时改变当前下标中的num值
 								if (goodList[i].id == items.id) {
 									goodList[i].num = parseInt(goodList[i].num) + parseInt($goodsnum.val());
 									j = false;
-									break;
+									break;//跳出循环
 								}
 							}
-							if (j) {
+							if (j) {//当数组中没有相同的商品时
 								//goodList中id不相等时生成一个新的对象存入数组中
 								goods.id = items.id;
 								goods.img = items.imgurl;
@@ -97,8 +97,7 @@ function details () {
 								goods.size = $(".gsize").val();
 								goods.emoney = parseInt($(".emoney strong").html());
 								goodList.push(goods);
-							}
-							
+							}	
 						}
 						//把数组转换为字符串
 						var goodscookie = JSON.stringify(goodList);
@@ -107,21 +106,27 @@ function details () {
 						var goodscke = setCookie("goodscke",goodscookie,d,"/");
 						//加入购物车效果
 						var $img = $(".goodlist_img img");
+						//复制图片
 						var $copyimg = $img.clone();
 						var OFF = $img.offset();
 						var oWidth = $img.outerWidth();
 						
-						$copyimg.css({
+						$copyimg.css({//给复制图片添加样式
 							position:"absolute",
 							left:OFF.left,
 							top:OFF.top,
 							width:oWidth
 						});
+						//把复制图片添加到body
 						$copyimg.appendTo("body");
+						//获取购物车位置
 						var $cartOFF = $(".header .cart").offset();
 						var $cartOWidth = $(".header .cart").outerWidth();
+						//复制图片运动到购物车位置
 						$copyimg.animate({top:$cartOFF.top,left:$cartOFF.left+$cartOWidth,width:0,opacity:0},2000,function () {
+							//图片到购物车位置后移除图片
 							$copyimg.remove();
+							//更新购物车商品总件数
 							listcart();
 						});
 					});

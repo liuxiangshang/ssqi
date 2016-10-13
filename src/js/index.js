@@ -5,6 +5,7 @@
 			dataType:"json",
 			success:function (res) {
 				//console.log(res);
+				//生成轮播图的结构和图片
 				var $ul = $("<ul></ul>");
 				var $lcarousel = $("<div></div>").addClass("lcarousel");
 				$.each(res, function(idx,item) {
@@ -15,6 +16,7 @@
 				});
 				$ul.prependTo($lcarousel);
 				$lcarousel.prependTo($(".wraper"));
+				调用轮播图方法
 				$lcarousel.lcarousel({
 					width:1100,
 					height:400,

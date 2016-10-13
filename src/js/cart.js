@@ -1,4 +1,4 @@
-function goodsCart () {
+function goodsCart () {//购物车方法
 	var listcookie = getCookie("goodscke");
 	var goodList = JSON.parse(listcookie);
 	//console.log(goodList);
@@ -14,6 +14,7 @@ function goodsCart () {
 		sum = goodList[i].price*goodList[i].num;
 		//所有商品的总价
 		sums += sum;
+		//生成购物车商品样式
 		$("<input/>").attr({type:"checkbox",name:"chb",checked:"checked"}).appendTo($divdetail);
 		$("<a/>").append($("<img/>").attr({src:goodList[i].img}).addClass("good_img")).appendTo($divdetail);
 		$("<span/>").addClass("gname").html(goodList[i].entitle).appendTo($p);
@@ -44,22 +45,28 @@ function goodsCart () {
 	$hyyhprice.html(sums);
 }
 
-function clicks () {
+function clicks () {//删除购物车内商品
 	var $lis = $(".cart_body ul li");
 	var $del = $lis.find(".cart_del");
 	var $reduce = $lis.find(".reduce");
 	var $plus = $lis.find(".plus");
-	$.each($del, function(idx,ele) {
+	$.each($del, function(idx,ele) {//遍历删除按钮
 		$(this).on("click",function () {
+			//获取cookie
 			var listcookie = getCookie("goodscke");
 			var goodList = JSON.parse(listcookie);
+			//移除当前商品
 			$lis.eq(idx).remove();
+			//删除cookie数组中的当前下标
 			goodList.splice(idx,1);
+			存入cookie中
 			var goodscookie = JSON.stringify(goodList);
 			var d = new Date(10);
 			//把字符串存入cookie中
 			var goodscke = setCookie("goodscke",goodscookie,d,"/");
+			//更新购物车商品总件数
 			listcart();
+			//重新拉取cookie设置购物车
 			goodsCart()
 		});
 	});

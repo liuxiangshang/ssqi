@@ -3,10 +3,10 @@ li,ul{list-style-image:none;list-style-type:none}
 a{font-size:12px;color:#2b2b2b;text-decoration:none}
 a:hover{color:#33b0f0;text-decoration:underline}
 fieldset,img,input{border:0;}
-
+/*商品介绍*/
 .goodview_nav{height: 34px;line-height: 34px;color: #666;font-size: 14px;margin: 75px 0 30px 135px;}
 .goodview_nav a{color: #666;font-size: 14px;}
-
+/*商品详细介绍*/
 .goodview_item{margin-left: 135px;overflow: hidden;}
 .goodlist_img{float: left;/*width: 315px;*/}
 .goodlist_detail{float: left;width: 515px;margin-left: 75px;}
@@ -14,31 +14,26 @@ fieldset,img,input{border:0;}
 .goodlist_detail .goods_title strong{font-size: 14px;display: block;line-height: 20px;}
 .goodlist_detail .goods_title p{font-size: 14px;line-height: 20px;color: #888;}
 .goodlist_detail .goods_title span{display: block;height: 20px;line-height: 20px;color: greenyellow;font-weight: bold;margin: 5px 0;}
-
 .goodlist_detail .interfree{display: block;background: #e0a4ae;color: #FFFFFF;font-size: 16px;width: 255px;height: 44px;line-height: 44px;text-align: center;margin-top: 10px;}
 .goodlist_detail .member_price{border-bottom: #e6e6e6 dashed 1px;height: 38px;line-height: 38px;color: #666;font-size: 12px;}
 .goodlist_detail .member_price a{color: #666;float: right;}
-
+/*商品尺寸颜色选择*/
 .goods_form{width: 515px;}
 .goods_form div{overflow: hidden;}
 .goods_form div span.sell_title{display: block;font-size: 15px;float: left;width: 75px;height: 38px;line-height: 38px;}
 .goods_form div .sell_content{float: left;height: 38px;line-height: 38px;width: 440px;position: relative;}
 .goods_form div .sell_content span.sell_price{font-size: 15px;}
 .goods_form div .sell_content span.emoney{margin: 0 5px;color: #666;font-size: 15px;}
-
 .sell_content select{border: #d8d8d8 solid 1px;width: 320px;font-size: 15px;height: 28px;color: #666;}
-
-
-
 .sell_content input{width: 53px;height: 14px;border: #D8D8D8 solid 1px;margin-top: 5px;padding: 7px 0;text-align: center;}
 .sell_content a{display: inline-block;width: 20px;height: 20px;line-height: 20px;color: #FFFFFF;border-radius: 20px;background: #666666;text-align: center;font-size: 20px;}
 .sell_content a:hover{text-decoration: none;}
-
+/*加入购物车按钮*/
 .good_buy{margin-top: 24px;}
 .good_buy .myzzim_btn{background: #8c8c8c;float: left;}
 .good_buy .cart_btn{background: #E0A4AE;float: right;}
 .good_buy .myzzim_btn,.good_buy .cart_btn{display: inline-block;width: 255px;height: 44px;line-height: 44px;text-align: center;color: #FFFFFF;font-size: 16px;}
-
+/*商品描述*/
 .goods_nav_list{background: #f7f7f7;margin: 70px 0;text-align: center;margin-left: 10px;}
 .goods_nav_list a{display: inline-block;width: 200px;height: 68px;overflow: hidden;font-size: 14px;margin-right: -1px;padding-top: 22px;text-decoration: none;}
 .goods_nav_list a .en{color: #000000;font-size: 16px;font-weight: bold;}
@@ -77,7 +72,7 @@ fieldset,img,input{border:0;}
 .saleList li p.Gtitle a:hover{color: #2B2B2B;}
 .saleList li p.Gamount{margin-top: 11px;font-size: 12px;}
 .saleList li p.GIcon{color: greenyellow;font-size: 16px;}
-
+/*评论*/
 .review_box{width: 930px;margin: 0 auto;}
 .review_box .review_title{margin-bottom: 15px;}
 .review_box .review_title .review_count{line-height: 28px;font-size: 16px;font-weight: bold;text-align: center;}

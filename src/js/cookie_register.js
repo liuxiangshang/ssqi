@@ -16,7 +16,7 @@ function cookie_register (urls) {
 	var $register_code_error = $(".pop_register_item .code_error");
 	
 	//电子邮件失去焦点事件
-	$register_txt.on("blur",function () {
+	$register_txt.on("blur",function () {//电子邮件格式验证
 		var pattern = /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/;
 		if (pattern.test($(this).val())) {
 			$register_txt_error.html("");
@@ -27,7 +27,7 @@ function cookie_register (urls) {
 		}
 	});
 	//密码是否一致
-	$register_repwd.on("blur",function () {
+	$register_repwd.on("blur",function () {//密码一致验证
 		if ($(this).val() == $register_pwd.val()) {
 			$register_pwd_error.html("");
 			$(this).attr({ble:"true"});
@@ -38,7 +38,7 @@ function cookie_register (urls) {
 	});
 
 	//验证手机号是否正确
-	$register_phone.on("blur",function () {
+	$register_phone.on("blur",function () {//手机号码格式验证
 		var pattern = /^[1]\d{10}$/;
 		if (pattern.test($(this).val())) {
 			$register_phone_error.html("");
@@ -49,7 +49,7 @@ function cookie_register (urls) {
 		}
 	});
 	//验证码
-	$register_code.on("blur",function () {
+	$register_code.on("blur",function () {//验证码验证
 		if ($(this).val() == $register_safe.html()) {
 			$register_code_error.html("");
 			$(this).attr({ble:"true"});
@@ -60,13 +60,13 @@ function cookie_register (urls) {
 	});
 	
 	function ble () {
-		if ($register_agree.prop("checked") == true) {
+		if ($register_agree.prop("checked") == true) {//如果checked设置自定义属性为true
 			$register_agree.attr({ble:"true"});
 		} else{
 			$register_agree.attr({ble:"false"});
 		}
 		
-		$.each($(".pop_register_input input"), function(idx,item) {
+		$.each($(".pop_register_input input"), function(idx,item) {//当输入框为空是设置自定义属性为false
 			if ($(item).val() == "") {
 				$(item).attr({ble:"false"});
 			}
@@ -78,13 +78,16 @@ function cookie_register (urls) {
 	//点击注册事件
 	$register_subimt.on("click",function () {
 		var d = new Date(10);
-		$.each($(".pop_register_input input"), function(idx,item) {
+		$.each($(".pop_register_input input"), function(idx,item) {//遍历所有信息
+			//如果自定义属性都为true,就是信息填写完整
 			if ($(item).attr("ble") == "true") {
+				//把注册信息存入cookie
 				var email = setCookie("email",$register_txt.val(),d);
 				var password = setCookie("password",$register_pwd.val(),d);
 				var username = setCookie("username",$register_name.val(),d);
 				var sex = setCookie("sex",$register_sex.val(),d);
 				var phone = setCookie("phone",$register_phone.val(),d);
+				//注册完跳转到当前页面
 				$register_subimt.attr({href:urls});
 			}
 		});
