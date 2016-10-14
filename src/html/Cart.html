@@ -10,8 +10,6 @@
 		<script src="../assets/base.js" type="text/javascript" charset="utf-8"></script>
 		<script src="../js/cookie_register.js" type="text/javascript" charset="utf-8"></script>
 		<script src="../js/cookie_login.js" type="text/javascript" charset="utf-8"></script>
-		<!--<script src="../js/list.js" type="text/javascript" charset="utf-8"></script>-->
-		<script src="../js/detail.js" type="text/javascript" charset="utf-8"></script>
 		<script src="../js/cart.js" type="text/javascript" charset="utf-8"></script>
 		<script type="text/javascript">
 			jQuery(function ($) {
@@ -21,9 +19,7 @@
 				goodsCart();
 				clicks();	
 				cookie_register(urls);
-				cookie_wholesale(urls);
 				cookie_login(urls);
-				cookie_wholesale_login(urls);
 			});
 		</script>
 	</head>
@@ -37,7 +33,7 @@
 				<li class="cosmetic"><a href="index.html">美妆区</a></li>
 			</ul>
 			<ul id="user_menu" class="user_menu">
-				<li><a href="#" class="login">登录</a>/<a href="#" class="register">注册</a></li>
+				<li><a href="#" class="login">登录</a>/<a class="register">注册</a></li>
 				<li class="cart"><a href="Cart.html">购物车(<span>0</span>)</a></a></li>
 				<li class="zzim"><a>暂存架(<span>0</span>)</a></li>
 			</ul>
@@ -119,8 +115,8 @@
 				</ul>
 				<ul class="users_menu">
 					<li class="logins"><a href="#" class="login">登录</a>/<a href="#" class="register">注册</a></li>
-					<li class="cart"><a href="#">购物车(<span>0</span>)</a></li>
-					<li class="zzim"><a href="#">暂存架(<span>0</span>)</a></li>
+					<li class="cart"><a href="">购物车(<span>0</span>)</a></li>
+					<li class="zzim"><a href="">暂存架(<span>0</span>)</a></li>
 				</ul>
 				<ul class="help_menu">
 					<li><a class="history_btn" href="#">今日浏览</a></li>
@@ -392,7 +388,7 @@
 											</div>
 											<div class="pop_register_tip">
 												<div class="agree">
-													<input type="checkbox" name="agreement" id="" value="" checked="checked"/> 我已阅读并同意《<a href="#">时尚起义用户使用条款</a>》
+													<input type="checkbox" name="agreement" id="" value="yes" checked="checked"/> 我已阅读并同意《<a href="#">时尚起义用户使用条款</a>》
 												</div>
 												<div class="pop_login_reg">
 													<a class="login">老用户登录</a>
@@ -487,7 +483,7 @@
 										</div>
 										<div class="pop_wholesale_tip">
 											<div class="agree">
-												<input type="checkbox" name="agreement" id="" value="" checked="checked"/> 我已阅读并同意《<a href="#">时尚起义用户使用条款</a>》
+												<input type="checkbox" name="agreement" id="" value="yes" checked="checked"/> 我已阅读并同意《<a href="#">时尚起义用户使用条款</a>》
 											</div>
 											<div class="pop_login_reg">
 												<a class="login">老用户登录</a>

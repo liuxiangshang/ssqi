@@ -1,4 +1,3 @@
-
 function lcommon () {
 	var $top_bar = $(".top_bar");
 	var $right_nav = $(".right_nav");
